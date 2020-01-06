@@ -2,7 +2,7 @@ import time
 import redis
 import rd as creds
 
-connection = redis.Redis(host = creds.rdHost, port = creds.rdPort, db = creds.rdDB)
+connection = redis.Redis(host = creds.rdHost, port = creds.rdPort, db = creds.rdDB, password = creds.rdPassWord)
 
 print("\n Trabalhando com variáveis comuns e Strings\n")
 print(connection.set('Greeting', 'Hello World!'))
