@@ -12,13 +12,13 @@ Funcionamento da biblioteca [`redis`](https://pypi.org/project/redis/) para o co
 # systemctl status redis.service
 ```
 
-### Instalação rápida da biblioteca 
+### Instalação rápida da biblioteca para a execução de `hello-redis.py`
 
 ```
 $ sudo pip install redis
 ```
 
-### Instalação das bibliotecas necessários para o sistema de cache
+### Instalação das bibliotecas necessários para o sistema de cache em `server.py`
 
 ```
 $ sudo pip install -r requirements.txt
