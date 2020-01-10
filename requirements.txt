@@ -1,0 +1,8 @@
+numpy
+csv
+pandas
+Flask
+flask-api
+flask_cors
+flask_restful
+flask_jsonpify
