@@ -18,7 +18,7 @@ Funcionamento da biblioteca [`redis`](https://pypi.org/project/redis/) para o co
 $ sudo pip install redis
 ```
 
-### Instalação das bibliotecas necessários para o sistema de cache em `server.py`
+### Instalação das bibliotecas necessários para o sistema de cache em [`server.py`](/server.py)
 
 ```
 $ sudo pip install -r requirements.txt
